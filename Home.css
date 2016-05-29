@@ -1,0 +1,21 @@
+/*the body beloow has the beckground image covering the entire webpage and no repeate fixed at the center*/
+
+body{background: url(Pics/BubbleBackground.jpg) no-repeat center fixed;
+background-size: cover;}
+
+main{margin:auto;
+    width:50%;
+    height:50%;
+    border: 3px solid white;
+}
+
+img{ max-width: 100%;
+height: auto;}
+
+
+
+nav{
+        float: right;
+        margin-right: 30px;
+    margin-top: -70px;}
+header{padding-top: 50px;}
