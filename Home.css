@@ -1,21 +1,108 @@
 /*the body beloow has the beckground image covering the entire webpage and no repeate fixed at the center*/
 
-body{background: url(Pics/BubbleBackground.jpg) no-repeat center fixed;
-background-size: cover;}
-
-main{margin:auto;
-    width:50%;
-    height:50%;
-    border: 3px solid white;
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+img {
+    margin: 0px;
+    padding: 0px;
 }
 
-img{ max-width: 100%;
-height: auto;}
+body {
+    background: url(Pics/BubbleBackground.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Ledger', serif;
+}
 
+main {
+    margin: auto;
+    width: 960px;
+    height: 812px;
+}
 
+#outluks {
+    font-family: 'lato', sans-serif;
+    color: #7c1e08;
+    font-size: 50px
+}
 
-nav{
-        float: right;
-        margin-right: 30px;
-    margin-top: -70px;}
-header{padding-top: 50px;}
+#hairstudios {
+    font-family: 'Dancing Script', cursive;
+    color: #0c5406;
+    font-size: 45px;
+    text-indent: 50px;
+}
+
+header {
+    padding-top: 50px;
+}
+
+nav {
+    display: inline-block;
+    font-size: 20px;
+    width: 450px;
+    
+    background-color: rgba(155, 152, 152, .5);
+    border-style: none none solid none;
+    border-color: #0c5606 #0c5606 #0c5606 #0c5606;
+    text-align: center;
+    margin-bottom:20px;
+    overflow: hidden;
+
+}
+
+nav a {
+    font-family: 'lato', sans-serif;
+    float: center;
+    padding-right: 10%;
+    color: #7c1e08;
+    text-decoration: none;
+    
+    
+}
+
+#greenpanel {
+    background: linear-gradient(rgb(9, 83, 5), rgb(238, 221, 24));
+    border-radius: 8px;
+    width
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#tagline {
+    background-color: #f9a91d;
+    border-radius: 8px;
+}
+
+.dancingscript {
+    font-family: 'Dancing Script', cursive
+}
+
+.lato {
+    font-family: 'Lato', sans-serif
+}
+
+#tagline {
+    margin-top: 20px
+}
+
+.button {
+    background-color: #f9a91d;
+    border: 1px solid #7c1e08;
+    color: #7c1e08;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px black;
+}
