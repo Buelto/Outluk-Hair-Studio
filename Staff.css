@@ -27,10 +27,6 @@ main {
     height: 1200px;
 }
 
-header {
-    padding-top: 50px;
-}
-
 #outluks {
     font-family: 'lato', sans-serif;
     color: #7c1e08;
@@ -44,29 +40,26 @@ header {
     text-indent: 50px;
 }
 
+header {
+    padding-top: 50px;
+}
+
 #mainlogo {
+    margin-left: 20px;
     width: 260px;
     height: 160px;
     float: left;
 }
 
-navbar {
+.nav-tabs{
+    
+    background: lightgrey;
     float: left;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 100px;
 }
 
-navbar a {
-    color: #470a07;
-    font-family: 'lato', sans-serif;
-}
-
-a:active {
-    color: #efdd17;
-}
-
-#greenpanel {
-    margin-top: 175px;
+#greenpanel {margin-top: 150px;
     background: linear-gradient(rgb(9, 83, 5), rgb(238, 221, 24));
     border-radius: 8px;
 }
@@ -85,7 +78,6 @@ a:active {
     text-align: center;
     background-color: #f9a91d;
     border-radius: 8px;
-    border: 1px solid #7c1e08;
     margin-top: 40px
 }
 
@@ -95,38 +87,18 @@ a:active {
 }
 
 .dancingscript {
-    font-family: 'Dancing Script', cursive;
-    color: #0c5406;
+    font-family: 'Dancing Script', cursive
 }
 
 .lato {
-    font-family: 'Lato', sans-serif;
-    color: #470a07;
-}
-
-.main p {
-    text-align: center;
-    padding-top: 50px;
-    margin: auto;
-    width: 600px;
-    height: 200px;
-    font-family: 'Ledger', serif;
-    font-size: 15px;
+    font-family: 'Lato', sans-serif
 }
 
 .button {
-    font-family: 'Dancing Script', cursive;
     background-color: #f9a91d;
     border: 1px solid #7c1e08;
     color: #7c1e08;
     font-size: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px #57585c;
-    margin-bottom: 80px;
-    margin-left: 700px
-}
-
-.button:active {
-  box-shadow: 0 2px #666;
-  transform: translateY(4px);
+    box-shadow: 0 3px black;
 }
