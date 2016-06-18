@@ -24,7 +24,7 @@ body {
 main {
     margin: auto;
     width: 960px;
-    height: 1200px;
+    height: 812px;
 }
 
 #outluks {
@@ -40,10 +40,6 @@ main {
     text-indent: 50px;
 }
 
-header {
-    padding-top: 50px;
-}
-
 #mainlogo {
     margin-left: 20px;
     width: 260px;
@@ -51,15 +47,31 @@ header {
     float: left;
 }
 
-.nav-tabs{
-    
-    background: lightgrey;
+header {
+    padding-top: 50px;
+}
+
+nav {
+    width: 500px;
     float: left;
+    background-color: rgba(155, 152, 152, .5);
+    border-style: none none solid none;
+    border-color: #0c5606 #0c5606 #0c5606 #0c5606;
     margin-left: 50px;
     margin-top: 100px;
 }
 
-#greenpanel {margin-top: 150px;
+nav a {
+    
+    font-family: 'lato', sans-serif;
+    float: center;
+    padding-right: 10%;
+    color: #7c1e08;
+    text-decoration: none;
+}
+
+#greenpanel {
+    margin-top: 175px;
     background: linear-gradient(rgb(9, 83, 5), rgb(238, 221, 24));
     border-radius: 8px;
 }
@@ -78,6 +90,7 @@ header {
     text-align: center;
     background-color: #f9a91d;
     border-radius: 8px;
+    border: 1px solid #7c1e08;
     margin-top: 40px
 }
 
@@ -87,18 +100,38 @@ header {
 }
 
 .dancingscript {
-    font-family: 'Dancing Script', cursive
+    font-family: 'Dancing Script', cursive;
+    color: #0c5406;
 }
 
 .lato {
-    font-family: 'Lato', sans-serif
+    font-family: 'Lato', sans-serif;
+    color: #470a07;
+}
+
+.main p {
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    font-family: 'Ledger', serif;
+    font-size: 15px;
 }
 
 .button {
+    font-family: 'Dancing Script', cursive;
     background-color: #f9a91d;
     border: 1px solid #7c1e08;
     color: #7c1e08;
     font-size: 20px;
     border-radius: 8px;
-    box-shadow: 0 3px black;
+    box-shadow: 0 2px #57585c;
+    margin-bottom: 80px;
+    margin-left: 700px
+}
+
+.button:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
 }

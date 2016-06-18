@@ -24,11 +24,7 @@ body {
 main {
     margin: auto;
     width: 960px;
-    height: 1200px;
-}
-
-header {
-    padding-top: 50px;
+    height: 812px;
 }
 
 #outluks {
@@ -45,30 +41,38 @@ header {
 }
 
 #mainlogo {
+    margin-left: 20px;
     width: 260px;
     height: 160px;
     float: left;
 }
 
-navbar {
+header {
+    padding-top: 50px;
+}
+
+nav {
+    width: 500px;
     float: left;
-    margin-left: 30px;
+    background-color: rgba(155, 152, 152, .5);
+    border-style: none none solid none;
+    border-color: #0c5606 #0c5606 #0c5606 #0c5606;
+    margin-left: 50px;
     margin-top: 100px;
 }
 
-navbar a {
-    color: #470a07;
+nav a {
     font-family: 'lato', sans-serif;
-}
-
-a:active {
-    color: #efdd17;
+    float: center;
+    padding-right: 10%;
+    color: #7c1e08;
+    text-decoration: none;
 }
 
 #greenpanel {
     margin-top: 175px;
     background: linear-gradient(rgb(9, 83, 5), rgb(238, 221, 24));
-    border-radius: 8px;
+    border-radius: 30px;
 }
 
 .carousel-inner {
