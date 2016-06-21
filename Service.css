@@ -81,44 +81,66 @@ nav a {
     color: #f9a91d;
     font-size: 40px;
 }
-#product1{width:50%; float: left;}
 
-#product2{width:50%; display:inline-block;}
-#product3{width:50%; display:inline-block;}
-#product4{width:50%; float: right;}
+#level1 {
+    width: auto;
+}
+
+#level2 {
+    width: inherit;
+}
+
+#female {
+    float: left;
+}
+
+#product1 {
+    margin-left: 20px;
+    float: left;
+}
 
 #YB1 {
     list-style-type: none;
-    text-align: center;
     font-size: 20px;
+}
+
+#product2 {
+    display: inline-block;
+}
+
+#product3 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#product4 {
+    display: inline-block;
+    margin-left: 20px;
 }
 
 #YB2 {
     list-style-type: none;
-    text-align: center;
     font-family: 'Ledger', serif;
     background-color: #f9a91d;
     font-size: 20px;
-    width: 500px;
-    height: 200px;
     border-radius: 30px;
 }
 
 #YB3 {
     list-style-type: none;
-    font-size:20px;
-    text-align: center;
+    font-size: 20px;
     font-family: 'Ledger', serif;
     background-color: #f9a91d;
-    width: 500px;
-    height: 200px;
     border-radius: 30px;
 }
 
 #YB4 {
     list-style-type: none;
-    text-align: center;
     font-size: 20px;
+}
+
+#male { float: left
+    margin-left: 20px;
 }
 
 .dancingscript {
@@ -151,9 +173,6 @@ nav a {
     border-radius: 8px;
     box-shadow: 0 2px #57585c;
     margin: auto;
-    
-
-    
 }
 
 .button:active {
