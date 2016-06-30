@@ -76,6 +76,7 @@ nav a {
 }
 
 #tagline {
+    padding-top: 30px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     color: #f9a91d;
@@ -83,64 +84,85 @@ nav a {
 }
 
 #level1 {
+    margin-top:40px;
     width: auto;
-}
-
-#level2 {
-    width: inherit;
+    display: flex;
+    justify-content: center
 }
 
 #female {
-    float: left;
-}
-
-#product1 {
-    margin-left: 20px;
-    float: left;
+    margin: 50px 0px 0px 0px;
 }
 
 #YB1 {
-    list-style-type: none;
-    font-size: 20px;
+    margin: 0px 20px;
 }
 
-#product2 {
-    display: inline-block;
+#YB1 th {
+    text-align: left;
+   
 }
 
-#product3 {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-#product4 {
-    display: inline-block;
-    margin-left: 20px;
+#YB1 td {
+    padding-right: 70px;
+    font-size: 18px;
+    font-family: 'Ledger', serif;
 }
 
 #YB2 {
-    list-style-type: none;
+    margin: 0px -30px 0px -70px;
+}
+
+#YB2 th {
+    text-align: center;
+}
+
+#YB2 td {
+    padding: 0px 55px 0px 10px;
     font-family: 'Ledger', serif;
-    background-color: #f9a91d;
-    font-size: 20px;
-    border-radius: 30px;
+    
+    font-size: 18px;
+}
+table #test{background-color: #f9a91d;}
+
+#level2 {
+    margin-top:50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
 }
 
 #YB3 {
-    list-style-type: none;
-    font-size: 20px;
+    margin: 0px 40px 0px -40px;
+}
+
+#YB3 th {
+    text-align: center;
+}
+
+#YB3 td {
+    padding: 0px 120px 0px 15px;
     font-family: 'Ledger', serif;
     background-color: #f9a91d;
-    border-radius: 30px;
+    font-size: 18px;
 }
 
 #YB4 {
-    list-style-type: none;
-    font-size: 20px;
+    margin: 0px -10px;
 }
 
-#male { float: left
-    margin-left: 20px;
+#YB4 th {
+    text-align: right
+}
+
+#YB4 td {
+    padding: 0px 30px 0px 0px;
+    font-family: 'Ledger', serif;
+    font-size: 18px;
+}
+
+#male {
+    margin: 60px 0px 0px 10px;
 }
 
 .dancingscript {
@@ -172,7 +194,7 @@ nav a {
     font-size: 20px;
     border-radius: 8px;
     box-shadow: 0 2px #57585c;
-    margin: auto;
+    margin:-400px 400px; 
 }
 
 .button:active {
