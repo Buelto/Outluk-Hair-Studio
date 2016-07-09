@@ -84,79 +84,81 @@ nav a {
 }
 
 #level1 {
-    margin-top:40px;
+    margin-top: 40px;
     width: auto;
     display: flex;
     justify-content: center
 }
 
 #female {
-    margin: 50px 0px 0px 0px;
+    margin: 70px 0px 0px 20px;
 }
 
 #YB1 {
-    margin: 0px 20px;
-}
-
-#YB1 th {
-    text-align: left;
-   
+    margin: 70px 0px 0px -160px;
 }
 
 #YB1 td {
-    padding-right: 70px;
+    padding-right: 20px;
+    padding-left: 50px;
     font-size: 18px;
     font-family: 'Ledger', serif;
+}
+
+#T1 {
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 200px 100px;
 }
 
 #YB2 {
-    margin: 0px -30px 0px -70px;
-}
-
-#YB2 th {
-    text-align: center;
+    margin: 70px 0px 0px -170px;
+    background-color: #f9a91d;
+    border-radius: 8px;
+    border: 1px solid #7c1e08;
 }
 
 #YB2 td {
-    padding: 0px 55px 0px 10px;
+    padding: 0px 30px 0px 20px;
     font-family: 'Ledger', serif;
-    
     font-size: 18px;
 }
-table #test{background-color: #f9a91d;}
 
 #level2 {
-    margin-top:50px;
+    margin-top: 20px;
     width: auto;
     display: flex;
     justify-content: center;
 }
 
-#YB3 {
-    margin: 0px 40px 0px -40px;
+#T2 {
+    margin: 20px 200px 200px 0px;
 }
 
-#YB3 th {
-    text-align: center;
+#YB3 {
+    margin: 70px 0px 0px -450px;
+    background-color: #f9a91d;
+     border: 2px solid #7c1e08;
+    border-radius: 10px;
+   
 }
 
 #YB3 td {
-    padding: 0px 120px 0px 15px;
+    padding: 0px 30px 0px 20px;
     font-family: 'Ledger', serif;
-    background-color: #f9a91d;
     font-size: 18px;
 }
 
-#YB4 {
-    margin: 0px -10px;
+#T3 {
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 200px 200px;
 }
 
-#YB4 th {
-    text-align: right
+#YB4 {
+    margin: 70px 0px 0px -240px;
 }
 
 #YB4 td {
-    padding: 0px 30px 0px 0px;
+    padding: 0px 50px 0px 0px;
     font-family: 'Ledger', serif;
     font-size: 18px;
 }
@@ -187,6 +189,7 @@ table #test{background-color: #f9a91d;}
 }
 
 .button {
+    padding: 6px;
     font-family: 'Dancing Script', cursive;
     background-color: #f9a91d;
     border: 1px solid #7c1e08;
@@ -194,7 +197,9 @@ table #test{background-color: #f9a91d;}
     font-size: 20px;
     border-radius: 8px;
     box-shadow: 0 2px #57585c;
-    margin:-400px 400px; 
+    margin:0px auto 20px 375px;
+    width: 200px;
+    bottom
 }
 
 .button:active {
