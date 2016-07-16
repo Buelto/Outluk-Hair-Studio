@@ -106,14 +106,16 @@ nav a {
 }
 
 #T1 {
+    
     padding: 0px 0px 0px 0px;
     margin: 20px 0px 200px 100px;
 }
 
+/* not sure as to why the  border colors for YB2 and  and YB3 are comming out as straight lines and not a round*/
 #YB2 {
     margin: 70px 0px 0px -170px;
+    border-radius: 50px;
     background-color: #f9a91d;
-    border-radius: 8px;
     border: 1px solid #7c1e08;
 }
 
@@ -131,15 +133,16 @@ nav a {
 }
 
 #T2 {
+    color: #7c1e08;
     margin: 20px 200px 200px 0px;
 }
 
 #YB3 {
     margin: 70px 0px 0px -450px;
     background-color: #f9a91d;
-     border: 2px solid #7c1e08;
-    border-radius: 10px;
-   
+    border-radius: 50px;
+    border: 1px solid #7c1e08;
+    
 }
 
 #YB3 td {
@@ -149,7 +152,7 @@ nav a {
 }
 
 #T3 {
-    padding: 0px 0px 0px 0px;
+    color: #7c1e08;
     margin: 20px 0px 200px 200px;
 }
 
@@ -197,9 +200,9 @@ nav a {
     font-size: 20px;
     border-radius: 8px;
     box-shadow: 0 2px #57585c;
-    margin:0px auto 20px 375px;
+    margin: 50px auto 40px 375px;
     width: 200px;
-    bottom
+    
 }
 
 .button:active {
