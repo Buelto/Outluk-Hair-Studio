@@ -115,7 +115,7 @@ nav a {
     width: 600px;
     height: 200px;
     font-family: 'Ledger', serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .button {
@@ -131,6 +131,6 @@ nav a {
 }
 
 .button:active {
-  box-shadow: 0 2px #666;
-  transform: translateY(4px);
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
 }
