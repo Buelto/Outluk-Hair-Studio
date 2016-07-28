@@ -1,137 +1,134 @@
-/*the body beloow has the beckground image covering the entire webpage and no repeate fixed at the center*/
-
-body,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-img {
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    background: url(Pics/BubbleBackground.jpg) no-repeat center fixed;
-    background-size: cover;
-    font-family: 'Ledger', serif;
-}
-
-main {
-    margin: auto;
-    width: 960px;
-    height: 812px;
-}
-
-#outluks {
-    font-family: 'lato', sans-serif;
-    color: #7c1e08;
-    font-size: 50px
-}
-
-#hairstudios {
-    font-family: 'Dancing Script', cursive;
-    color: #0c5406;
-    font-size: 45px;
-    text-indent: 50px;
-}
-
-#mainlogo {
-    margin-left: 20px;
-    width: 260px;
-    height: 160px;
-    float: left;
-}
-
-header {
-    padding-top: 50px;
-}
-
-nav {
-    width: 500px;
-    float: left;
-    background-color: rgba(155, 152, 152, .5);
-    border-style: none none solid none;
-    border-color: #0c5606 #0c5606 #0c5606 #0c5606;
-    margin-left: 50px;
-    margin-top: 100px;
-}
-
-nav a {
+    /*the body beloow has the beckground image covering the entire webpage and no repeate fixed at the center*/
     
-    font-family: 'lato', sans-serif;
-    float: center;
-    padding-right: 10%;
-    color: #7c1e08;
-    text-decoration: none;
-}
+    body,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    img {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background: url(Pics/BubbleBackground.jpg) no-repeat center fixed;
+        background-size: cover;
+        font-family: 'Ledger', serif;
+    }
+    
+    main {
+        margin: auto;
+        width: 960px;
+        height: 812px;
+    }
+    
+    #outluks {
+        font-family: 'lato', sans-serif;
+        color: #7c1e08;
+        font-size: 50px
+    }
+    
+    #hairstudios {
+        font-family: 'Dancing Script', cursive;
+        color: #0c5406;
+        font-size: 45px;
+        text-indent: 50px;
+    }
+    
+    #mainlogo {
+        margin-left: 20px;
+        width: 260px;
+        height: 160px;
+        float: left;
+    }
+    
+    header {
+        padding-top: 50px;
+    }
+    
+    nav {
+        width: 500px;
+        float: left;
+        background-color: rgba(155, 152, 152, .5);
+        border-style: none none solid none;
+        border-color: #0c5606 #0c5606 #0c5606 #0c5606;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    
+    nav a {
+        font-family: 'lato', sans-serif;
+        float: center;
+        padding-right: 10%;
+        color: #7c1e08;
+        text-decoration: none;
+    }
+    
+    #greenpanel {
+        margin-top: 175px;
+        background: linear-gradient(rgb(9, 83, 5), rgb(238, 221, 24));
+        border-radius: 8px;
+    }
 
-#greenpanel {
-    margin-top: 175px;
-    background: linear-gradient(rgb(9, 83, 5), rgb(238, 221, 24));
-    border-radius: 8px;
-}
-
-.carousel-inner {
-    box-shadow: 0px 130px 10px -120px #464646;
-}
-
-.carousel-inner> .item > img,
-.carousel-inner> .item > a >img {
-    width: 70%;
-    margin: auto;
-}
-
-#tagline {
-    text-align: center;
-    background-color: #f9a91d;
-    border-radius: 8px;
-    border: 1px solid #7c1e08;
-    margin-top: 40px
-}
-
-#tagline h3 {
-    display: inline;
-    font-size: 40px;
-}
-
-.dancingscript {
-    font-family: 'Dancing Script', cursive;
-    color: #0c5406;
-}
-
-.lato {
-    font-family: 'Lato', sans-serif;
-    color: #470a07;
-}
-
-.main p {
-    text-align: center;
-    padding-top: 50px;
-    margin: auto;
-    width: 600px;
-    height: 200px;
-    font-family: 'Ledger', serif;
-    font-size: 15px;
-}
-
-.button {
-    font-family: 'Dancing Script', cursive;
-    background-color: #f9a91d;
-    border: 1px solid #7c1e08;
-    color: #7c1e08;
-    font-size: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px #57585c;
-    margin-bottom: 80px;
-    margin-left: 700px
-}
-
-.button:active {
-  box-shadow: 0 2px #666;
-  transform: translateY(4px);
-}
+    
+    .dancingscript {
+        font-family: 'Dancing Script', cursive;
+        color: #0c5406;
+    }
+    
+    .lato {
+        font-family: 'Lato', sans-serif;
+        color: #470a07;
+    }
+    
+    .main p {
+        text-align: center;
+        padding-top: 50px;
+        margin: auto;
+        width: 600px;
+        height: 200px;
+        font-family: 'Ledger', serif;
+        font-size: 15px;
+    }
+    
+    .button {
+        font-family: 'Dancing Script', cursive;
+        background-color: #f9a91d;
+        border: 1px solid #7c1e08;
+        color: #7c1e08;
+        font-size: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px #57585c;
+        margin-bottom: 80px;
+        margin-left: 700px
+    }
+    
+    .button:active {
+        box-shadow: 0 2px #666;
+        transform: translateY(4px);
+    }
+    
+    #gmap_canvas {
+        height: 300px;
+        width: 900px;
+        margin-left: 30px;
+        box-shadow: 0px 30px 20px -20px #464646;
+    }
+    
+    #time {
+        float: left;
+        width: 450px;
+        height: 200px;
+        background-color: #f9a91d;
+    }
+    #contact {
+        float: right;
+        width: 450px;
+        height: 200px;
+        
+    }
