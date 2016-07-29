@@ -52,7 +52,7 @@ header {
 }
 
 nav {
-    width: 500px;
+    width: 462px;
     float: left;
     background-color: rgba(155, 152, 152, .5);
     border-style: none none solid none;
@@ -134,3 +134,6 @@ nav a {
     box-shadow: 0 2px #666;
     transform: translateY(4px);
 }
+
+#slinks{ height: 100px;
+width: 960px;}

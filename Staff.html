@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <!-- determins the character encoding- Unicode Transformation Format-->
@@ -15,7 +15,28 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
+    
+    
+    <!-- Add jQuery library -->
 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="fancyBox-Lightbox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    
+    
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="fancyBox-Lightbox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancyBox-Lightbox/source/jquery.fancybox.js"></script>
+    
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="fancyBox-Lightbox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancyBox-Lightbox/source/helpers/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="fancyBox-Lightbox/source/helpers/jquery.fancybox-media.js"></script>
+    
+    <link rel="stylesheet" href="fancyBox-Lightbox/source/helpers/jquery.fancybox-thumbs.css?" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancyBox-Lightbox/source/helpers/jquery.fancybox-thumbs.js?"></script>
+    
 </head>
 
 <body>
@@ -57,16 +78,18 @@
                 
                 
                 <div id="gridpics">
-                    <img id="pic1" src="Pics/White_Girl_Dreads%20LQ.jpg" alt="Short haircut style">
-
-                    <img id="pic2" src="Pics/Mozart-La-Para%20LQ.jpg" alt="Hair style with Braids with a hair clip">
-
-                    <img id="pic3" src="Pics/Curly_Hairstyle%20LQ.jpg" alt="Mowhowk hair style">
-                    <button class="button">Book an Appointment!</button>
-
-                    <img id="pic4" src="Pics/Flow_Hair%20LQ.jpg" alt="long flowy hair style">
+                   <a class="fancybox" rel="Lightbox" href="Pics/White_Girl_Dreads%20HQ.png">
+                    <img id="pic1" src="Pics/White_Girl_Dreads%20LQ.jpg" alt="Short haircut style"></a>
+                     <a class="fancybox" rel="Lightbox" href="Pics/Mozart-La-Para-7%20HQ.jpg">
+                    <img id="pic2" src="Pics/Mozart-La-Para%20LQ.jpg" alt="Hair style with Braids with a hair clip"></a>
+                    <a class="fancybox" rel="Lightbox" href="Pics/Curly_Hairstyle%20HQ.jpg">
+                    <img id="pic3" src="Pics/Curly_Hairstyle%20LQ.jpg" alt="Mowhowk hair style"></a>
                     
-                    <img id="pic5" src="Pics/kid_n_play%20LQ.jpg" alt="long flowy hair style">
+                    <button class="button">Book an Appointment!</button>
+                    <a class="fancybox" rel="Lightbox" href="Pics/Flow_Hair%20HQ.jpg">
+                    <img id="pic4" src="Pics/Flow_Hair%20LQ.jpg" alt="long flowy hair style"></a>
+                    <a class="fancybox" rel="Lightbox" href="Pics/kid_n_play%20HQ.jpg">
+                    <img id="pic5" src="Pics/kid_n_play%20LQ.jpg" alt="long flowy hair style"></a>
                     
                     
 
@@ -116,7 +139,20 @@
             <!--//social media icon// -->
             <!--//services//-->
         </main>
+        
+        <div id=slinks></div>
     </div>
+            <script>
+ 
+   
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+
+ 
+    </script>
+    
+    
 </body>
 
 </html>

@@ -116,7 +116,7 @@ nav a {
     margin: 70px 0px 0px -170px;
     border-radius: 50px;
     background-color: #f9a91d;
-    border: 1px solid #7c1e08;
+    border-radius: 10px;
 }
 
 #YB2 td {
@@ -139,9 +139,9 @@ nav a {
 
 #YB3 {
     margin: 70px 0px 0px -450px;
-    border: 1px solid #7c1e08;
+
     background-color: #f9a91d;
-    border-radius: 50px;
+    border-radius: 10px;
     
     
 }
@@ -212,3 +212,6 @@ nav a {
     transform: translateY(4px);
     vertical-align: middle;
 }
+
+#slinks{ height: 100px;
+width: 960px;}

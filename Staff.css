@@ -51,7 +51,7 @@ header {
 }
 
 nav {
-    width: 500px;
+    width: 462px;
     float: left;
     background-color: rgba(155, 152, 152, .5);
     border-style: none none solid none;
@@ -218,3 +218,5 @@ color:#105707;}
     font-size: 15px;
 }
 
+#slinks{ height: 100px;
+width: 960px;}
