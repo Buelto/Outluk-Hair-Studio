@@ -1,76 +1,33 @@
-/*the body beloow has the beckground image covering the entire webpage and no repeate fixed at the center*/
-
-body,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-img {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     background: url(Pics/BubbleBackground.jpg) no-repeat center fixed;
     background-size: cover;
     font-family: 'Ledger', serif;
 }
 
-main {
-    margin: auto;
-    width: 960px;
-    height: 812px;
-}
-
-#outluks {
-    font-family: 'lato', sans-serif;
-    color: #7c1e08;
-    font-size: 50px
-}
-
-#hairstudios {
-    font-family: 'Dancing Script', cursive;
-    color: #0c5406;
-    font-size: 45px;
-    text-indent: 50px;
-}
-
 #mainlogo {
-    margin-left: 20px;
-    width: 260px;
-    height: 160px;
-    float: left;
-}
+    background: url(Pics/Logo.png) no-repeat;
+    width: 250px;
+    height: 120px;
+    }
 
-header {
-    padding-top: 50px;
-}
+
 
 nav {
     width: 462px;
-    float: left;
     background-color: rgba(155, 152, 152, .5);
     border-style: none none solid none;
     border-color: #0c5606 #0c5606 #0c5606 #0c5606;
-    margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 nav a {
     font-family: 'lato', sans-serif;
     float: center;
-    padding-right: 10%;
     color: #7c1e08;
     text-decoration: none;
 }
 
 #greenpanel {
-    margin-top: 175px;
     background: linear-gradient(rgb(9, 83, 5), rgb(238, 221, 24));
     border-radius: 30px;
 }
@@ -81,7 +38,7 @@ nav a {
 
 .carousel-inner> .item > img,
 .carousel-inner> .item > a >img {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -90,7 +47,7 @@ nav a {
     background-color: #f9a91d;
     border-radius: 8px;
     border: 1px solid #7c1e08;
-    margin-top: 40px
+    margin-top: 40px;
 }
 
 #tagline h3 {
@@ -110,9 +67,7 @@ nav a {
 
 .main p {
     text-align: center;
-    padding-top: 50px;
-    margin: auto;
-    width: 600px;
+    padding: 50px 60px 0px 60px;
     height: 200px;
     font-family: 'Ledger', serif;
     font-size: 18px;
@@ -134,6 +89,3 @@ nav a {
     box-shadow: 0 2px #666;
     transform: translateY(4px);
 }
-
-#slinks{ height: 100px;
-width: 960px;}
