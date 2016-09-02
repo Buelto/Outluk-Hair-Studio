@@ -1,4 +1,3 @@
-
 body {
     background: url(Pics/BubbleBackground.jpg) no-repeat center fixed;
     background-size: cover;
@@ -11,15 +10,20 @@ body {
     height: 120px;
     }
 
+
+
 nav {
+    width: 462px;
     background-color: rgba(155, 152, 152, .5);
     border-style: none none solid none;
     border-color: #0c5606 #0c5606 #0c5606 #0c5606;
     margin-top: 60px;
-    width: -200px;
 }
+
+
 nav a {
     font-family: 'lato', sans-serif;
+   
     color: #7c1e08;
     text-decoration: none;
 }
@@ -28,7 +32,6 @@ nav a {
     background: linear-gradient(rgb(9, 83, 5), rgb(238, 221, 24));
     border-radius: 30px;
 }
-
 
 #tagline {
     padding-top: 30px;

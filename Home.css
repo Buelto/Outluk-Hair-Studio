@@ -2,6 +2,9 @@ body {
     background: url(Pics/BubbleBackground.jpg) no-repeat center fixed;
     background-size: cover;
     font-family: 'Ledger', serif;
+    margin-top: 100px;
+}
+.container{margin-top: 40px;
 }
 
 #mainlogo {
@@ -13,16 +16,11 @@ body {
 
 
 nav {
-    width: 462px;
-    background-color: rgba(155, 152, 152, .5);
-    border-style: none none solid none;
-    border-color: #0c5606 #0c5606 #0c5606 #0c5606;
-    margin-top: 60px;
+    width: 491px;    
 }
 
 nav a {
     font-family: 'lato', sans-serif;
-    float: center;
     color: #7c1e08;
     text-decoration: none;
 }
@@ -82,10 +80,10 @@ nav a {
     border-radius: 8px;
     box-shadow: 0 2px #57585c;
     margin-bottom: 80px;
-    margin-left: 700px
+    
 }
 
 .button:active {
     box-shadow: 0 2px #666;
-    transform: translateY(4px);
+   
 }
