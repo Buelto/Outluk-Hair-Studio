@@ -10,7 +10,8 @@ body {
     height: 120px;
     }
 
-
+.container{margin-top: 40px;
+}
 
 nav {
     width: 462px;
