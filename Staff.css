@@ -1,0 +1,222 @@
+/*the body beloow has the beckground image covering the entire webpage and no repeate fixed at the center*/
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+img {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(Pics/BubbleBackground.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+main {
+    margin: auto;
+    width: 960px;
+    height: 1000px;
+}
+
+#outluks {
+    font-family: 'lato', sans-serif;
+    color: #7c1e08;
+    font-size: 50px
+}
+
+#hairstudios {
+    font-family: 'Dancing Script', cursive;
+    color: #0c5406;
+    font-size: 45px;
+    text-indent: 50px;
+}
+
+#mainlogo {
+    margin-left: 20px;
+    width: 260px;
+    height: 160px;
+    float: left;
+}
+
+header {
+    padding-top: 50px;
+}
+
+nav {
+    width: 462px;
+    float: left;
+    background-color: rgba(155, 152, 152, .5);
+    border-style: none none solid none;
+    border-color: #0c5606 #0c5606 #0c5606 #0c5606;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+nav a {
+    font-family: 'lato', sans-serif;
+    float: center;
+    padding-right: 10%;
+    color: #7c1e08;
+    text-decoration: none;
+}
+
+#greenpanel {
+    margin-top: 175px;
+    background: linear-gradient(rgb(9, 83, 5), rgb(238, 221, 24));
+    border-radius: 30px;
+}
+
+#padding {
+    height: 50px;
+}
+
+#staffmainbio {
+    width: 600px;
+    height: 200px;
+}
+
+#mainnichole {
+    margin: -240px 0px 0px 20px;
+}
+
+#profile1 {
+    font-family: 'Ledger', serif;
+    font-size: 18px;
+    margin-left: 90px;
+    width: 530px;
+    height: 220px;
+    padding: 30px 30px 0px 80px;
+    text-align: center;
+    background-color: #f9a91d;
+    border-radius: 10px;
+    border: 1px solid #7c1e08;
+}
+
+#pic1 {
+    margin: -210px 0px 0px 640px;
+    box-shadow: 8px 8px 5px 0px #464646;
+}
+
+#subnichole {
+    margin: -410px 0px 0px 80px;
+}
+
+#profile2 {
+    margin: -220px 0px 0px 0px;
+    font-family: 'Ledger', serif;
+    font-size: 18px;
+    width: 280px;
+    height: 180px;
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+    background-color: #f9a91d;
+    border-radius: 10px;
+    border: 1px solid #7c1e08;
+}
+
+#pic2 {
+    margin: 20px 0px 0px 320px;
+    box-shadow: 8px 8px 5px 0px #464646;
+}
+
+#pic3 {
+    margin: -240px 0px 0px 640px;
+    box-shadow: 8px 8px 5px 0px #464646;
+}
+
+.button {
+    font-family: 'Dancing Script', cursive;
+    background-color: #f9a91d;
+    border: 1px solid #7c1e08;
+    color: #7c1e08;
+    font-size: 20px;
+    border-radius: 50%;
+    box-shadow: 0 2px #57585c;
+    margin: -2000000000px 0px 100px 550px;
+    height: 125px;
+    width: 125px;
+}
+
+.button:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.read{ border: none; 
+text-align: center;
+text-decoration: underline;
+display: inline-block;
+background: none;
+color:#105707;}
+
+#staffsubbio {
+    margin: -320px 0px 0px 20px;
+    width: 320px;
+    height: 300px;
+}
+
+#staffsubbio2 {
+    margin: -300px 0px 0px 20px;
+    width: 320px;
+    height: 300px;
+}
+
+#subnichole2 {
+    margin: 0px 0px 0px 80px;
+}
+
+#profile3 {
+    margin: -60px 0px 0px 0px;
+    font-family: 'Ledger', serif;
+    font-size: 18px;
+    width: 280px;
+    height: 180px;
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+    background-color: #f9a91d;
+    border-radius: 10px;
+    border: 1px solid #7c1e08;
+}
+
+
+#pic4 {
+    margin: -180px 0px 0px 320px;
+    box-shadow: 8px 8px 5px 0px #464646;
+}
+
+#pic5 {
+    margin: -220px 0px 90px 640px;
+    box-shadow: 8px 8px 5px 0px #464646;
+}
+
+
+
+.dancingscript {
+    font-family: 'Dancing Script', cursive;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+    color: #470a07;
+}
+
+.main p {
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    font-family: 'Ledger', serif;
+    font-size: 15px;
+}
+
+#slinks{ height: 100px;
+width: 960px;}

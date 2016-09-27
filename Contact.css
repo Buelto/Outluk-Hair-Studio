@@ -1,0 +1,174 @@
+    /*the body beloow has the beckground image covering the entire webpage and no repeate fixed at the center*/
+    
+    body,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    img {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background: url(Pics/BubbleBackground.jpg) no-repeat center fixed;
+        background-size: cover;
+    }
+    
+    main {
+        margin: auto;
+        width: 960px;
+        height: 812px;
+    }
+    
+    #outluks {
+        font-family: 'lato', sans-serif;
+        color: #7c1e08;
+        font-size: 50px
+    }
+    
+    #hairstudios {
+        font-family: 'Dancing Script', cursive;
+        color: #0c5406;
+        font-size: 45px;
+        text-indent: 50px;
+    }
+    
+    #mainlogo {
+        margin-left: 20px;
+        width: 260px;
+        height: 160px;
+        float: left;
+    }
+    
+    header {
+        padding-top: 50px;
+    }
+    
+    nav {
+        width: 462px;
+        float: left;
+        background-color: rgba(155, 152, 152, .5);
+        border-style: none none solid none;
+        border-color: #0c5606 #0c5606 #0c5606 #0c5606;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    
+    nav a {
+        font-family: 'lato', sans-serif;
+        float: center;
+        padding-right: 10%;
+        color: #7c1e08;
+        text-decoration: none;
+    }
+    
+    #greenpanel {
+        margin-top: 175px;
+        background: linear-gradient(rgb(9, 83, 5), rgb(238, 221, 24));
+        border-radius: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .dancingscript {
+        font-family: 'Dancing Script', cursive;
+        color: #0c5406;
+    }
+    
+    .button {
+        font-family: 'Dancing Script', cursive;
+        background-color: #f9a91d;
+        border: 1px solid #7c1e08;
+        color: #7c1e08;
+        font-size: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px #57585c;
+        margin: 0px 0px 0px 780px;
+        padding: 0px 20px 0px 20px;
+    }
+    
+    .button:active {
+        box-shadow: 0 2px #666;
+        transform: translateY(4px);
+    }
+    
+    #gmap_canvas {
+        height: 300px;
+        width: 900px;
+        margin-left: 30px;
+        box-shadow: 0px 30px 10px -20px #464646;
+    }
+    
+    #group {
+        margin: 30px 0px -20px 0px;
+        display: flex;
+        width: 1000;
+        height: 450px;
+    }
+    
+    #time {
+        font-family: 'Ledger', serif;
+        border-radius: 10px;
+        width: 450px;
+        height: 400px;
+        background-color: #f9a91d;
+        margin-left: -20px;
+        border: 1px solid #7c1e08;
+        font-size: 18px;
+    }
+    
+    #time h3 {
+        color: #7c1e08;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #time td {
+        padding: 5px 45px 0px 50px;
+    }
+    
+    #time p {
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    #contact {
+        font-family: 'Ledger', serif;
+        display: inline-block;
+        margin-left: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    #contact h3 {
+        text-align: center;
+        font-size: 30px;
+        color: black;
+    }
+    
+    #contact form {
+        padding-bottom: 15px;
+    }
+    
+    input,
+    textarea {
+        width: 300px;
+    }
+    
+    lable {
+        /* To make sure that all labels have the same size and are properly aligned */
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+        vertical-align: top;
+    }
+    
+    #slinks {
+        height: 100px;
+        width: 960px;
+    }
